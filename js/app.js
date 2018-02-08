@@ -3,7 +3,7 @@
 
 window.onload = function() {
 	// Create a raster item:
-	var raster = new Raster('https://nmorse.github.io/pixel-eyes/25401.jpeg');
+	var raster = new paper.Raster('https://nmorse.github.io/pixel-eyes/25401.jpeg');
 	var loaded = false;
 
 	raster.on('load', function() {
