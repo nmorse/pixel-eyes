@@ -2,7 +2,7 @@
 // http://www.flickr.com/photos/puckey/3179779686/in/photostream/
 
 // Create a raster item:
-var raster = new Raster('mona.jpg');
+var raster = new Raster('25401.jpeg');
 var loaded = false;
 
 raster.on('load', function() {
